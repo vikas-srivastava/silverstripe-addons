@@ -108,7 +108,7 @@ class AddonRelease extends DataObject {
 		return $validator = new RequiredFields(
 			'ReleaseVersion',
 			'ReleaseDate',
-			'CompatibleSilverStripeVersions',
+			// 'CompatibleSilverStripeVersions',
 			'Status'
 		);
 	}
@@ -130,6 +130,9 @@ class AddonRelease extends DataObject {
 	}
 	
 	static function all_stables_plus_one_pre_if_newer_groupby_releaselines(){
+		// TODO Coupling with ss.org codebase
+		if(!class_exists('PreReleasesPage')) return array();
+
 		$ret = array();
 		$page = new PreReleasesPage(array('SubversionBaseURL' => "http://svn.silverstripe.com/open/phpinstaller/tags/"));
 		$childDirs = SvnInfoCache::for_url("http://svn.silverstripe.com/open/phpinstaller/tags/")->childDirs();
