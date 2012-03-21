@@ -13,6 +13,10 @@ class ModuleHolder extends Page {
 	static $many_many = array(
 		'Reviewers' => 'Member'
 	);
+
+	static $default_records = array(
+		array('Title' => "Modules")
+	);
 	
 	static $defaults = array(
 		'AddContent' => "

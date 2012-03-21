@@ -272,7 +272,7 @@ class ModulePage extends AddOnPage {
 	 */
 	function requireDefaultRecords() {
 		parent::requireDefaultRecords();
-		
+
 		$fields = array(
 			'ExistingTicketsLink', 'URLToDemo', 'InstallationLink', 
 			'FAQLink', 'GettingStartedLink', 'FileTicketLink',

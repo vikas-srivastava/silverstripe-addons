@@ -11,6 +11,10 @@ class ThemeHolder extends Page {
 	static $many_many = array(
 		'Reviewers' => 'Member'
 	);
+
+	static $default_records = array(
+		array('Title' => "Themes")
+	);
 	
 	function getCMSFields() {
 		$fields = parent::getCMSFields();
