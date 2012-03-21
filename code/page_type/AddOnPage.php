@@ -50,7 +50,7 @@ class AddOnPage extends Page {
 	);
 	
 	static $key_word_searchable = array(
-		"Title","MenuTitle","Content","MetaTitle","MetaDescription","MetaKeywords","RightContent","Abstract"
+		"Title","MenuTitle","Content","MetaTitle","MetaDescription","MetaKeywords","Abstract"
 	);
 	
 	
