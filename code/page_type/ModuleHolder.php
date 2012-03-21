@@ -270,8 +270,8 @@ class ModuleHolder_Controller extends Page_Controller {
 		
 		Requirements::javascript(THIRDPARTY_DIR .'/jquery/jquery.js');
 		Requirements::javascript('sapphire/javascript/jquery_improvements.js');
-		Requirements::javascript('themes/silverstripe/javascript/sort_options_form.js');
-		Requirements::css('themes/silverstripe/css/sort_options_form.css');
+		Requirements::javascript('addons/javascript/sort_options_form.js');
+		Requirements::css('addons/css/sort_options_form.css');
 		$field = new GroupedDropdownField('SSversionsField', "Compatible SilverStripe Versions:", $source, $values);
 		
 		return "<label>".$field->Title()."</label>".$field->Field();
