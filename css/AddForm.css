@@ -1,0 +1,164 @@
+#Form_AddForm{
+	clear: both;
+	display: block;
+}
+
+.inlineformaction {
+	display: block;
+	clear: both;
+}
+.inlineformaction input.leftfloat {
+	margin-left: 800px;
+	margin-bottom: 10px;
+}
+
+div.CompositeField {
+	display: block;
+	clear: both;
+}
+
+.popupInfo{
+	position: relative !important;
+	display: block;
+	clear: both;
+}
+
+.hoverPopupLink{
+	position: absolute;
+	top: -20px;
+	font: 11px Verdana, sans-serif !important;
+	font-style: italic !important;
+}
+
+.hoverPopup {
+	position: absolute;
+	display: none; /* keeps the popup hidden if no JS available */
+	z-index: 100 !important;
+	opacity: .95;
+	-moz-opacity: .95;
+	filter:alpha(opacity=95);
+	color: #ffffff !important;
+	background: #000000 !important;
+	font: 12px Verdana, sans-serif !important;
+	left: 250px;
+	top: -20px;
+}
+
+.field { clear:both; }
+
+.field.text,
+.field.textarea,
+.field.tag,
+.field.fieldgroup,
+.field.url
+{ padding-top:15px; border-top:1px solid #eee; }
+
+	div.clear.emailclear{
+		padding-bottom: 10px;
+	}
+
+	.field.text label,
+	.field.textarea label,
+	.field.limittextarea label,
+	.field.tag label,
+	.field.simpleimage label,
+	.field.dropdown label,
+	.field.fieldgroup label,
+	.field.url label
+	{ width:300px; float:left; padding-right: 1em;}
+	
+	.field.fieldgroup div.fieldgroupField
+	{ float: left;}
+	
+	.field.text label.secondleft,
+	.field.textarea label.secondleft,
+	.field.limittextarea label.secondleft,
+	.field.tag label.secondleft,
+	.field.simpleimage label.secondleft,
+	.field.dropdown label.secondleft,
+	.field.url label.secondleft{
+		clear: left;
+	}
+	
+	
+	.field.text input,
+	.field.textarea textarea,
+	.field.simpleimage input,
+	.field.url input
+	{ width:300px;}
+	.field.simpleimage input, div#Logo div.simpleimage div.thumbnail img{
+		margin-left: 300px;
+	}
+	.field.gieldgroup input{
+		width: 200px;
+	}
+	
+	div#Abstract label,
+	div#Logo label{
+		width:100%;
+	}
+
+	#Form_AddForm_Abstract, #Form_EditForm_Abstract{
+		width: 100%;
+		clear: both;
+		margin-left: 0;
+	}
+	
+	.field.tag span.tagMatches {
+		margin-left: 300px;
+		float: 300px;
+	}
+	
+	.field.tag input {width: 500px;}
+	
+.field.htmleditor { padding-top:15px; border-top:1px solid #eee; }
+	.field.htmleditor label { display:block;}
+	
+.field.simpleimage { padding-top:15px; padding-bottom:10px; border-top:1px solid #eee; }
+
+.field.inlineformaction { margin-bottom:30px; padding-top:15px; border-top:1px solid #eee; }
+	.field.inlineformaction input.action { height:25px; padding:0 10px;
+		background:#333; color:#fff; 
+		border:1px solid #666; border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; 
+		font-size:11px; font-family:Georgia, serif; padding:0 10px; 
+		cursor:pointer; }
+	.field.inlineformaction input.action:hover { background:#444; }
+
+.field.dropdown { padding-top:15px; padding-bottom:10px; border-top:1px solid #eee; }
+	.field.dropdown select { width:300px; }
+	
+.field.calendardate { padding-top:15px; padding-bottom:10px; border-top:1px solid #eee; }
+	.field.calendardate label { width:300px; float:left; }
+	.field.calendardate input { width:auto; }
+	
+.field.treecheckboxset, .field.fileiframe { padding-top:15px; padding-bottom:10px; border-top:1px solid #eee; }
+
+#content div.Actions { padding:15px 0 0 0; border-top:1px solid #eee; margin-bottom:30px; }
+
+#Form_AddForm_action_doAdd {
+	border-bottom:none;
+	display:block;
+	width:120px;
+	height:30px;
+	line-height:30px;
+	padding:0;
+	color:#fff;
+	overflow:hidden;
+	background:transparent url(../images/module_submit_bkgd.gif) no-repeat 0 0;		
+	font-weight:bold;	
+	border:none; 
+	text-align:left; 
+	font-family:Georgia, serif;
+	font-size:15px; 
+}
+#Form_AddForm_action_doAdd:hover {
+	background-position:0 -30px;
+}
+#Form_AddForm_action_doAdd:active {
+	background-position:0 0;
+}
+
+div.field label span.helptext {
+	font-size: 0.9em;
+	font-style:italic;
+}

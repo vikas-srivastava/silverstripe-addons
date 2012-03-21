@@ -1,0 +1,23 @@
+div ul.treecheckboxsetfield{
+	border: none !important;
+	margin: 0;
+}
+
+div ul.treecheckboxsetfield ul.subUL{
+	margin-left: 3em;
+}
+
+div ul.treecheckboxsetfield li{
+	background: none;
+	padding: 0;
+	border: none;
+}
+	div ul.treecheckboxsetfield li.root{
+		margin:0.5em 0;
+		display: block;
+	}
+
+	div ul.treecheckboxsetfield li.leaf{
+		display: inline;
+		margin-right: 1.5em;
+	}

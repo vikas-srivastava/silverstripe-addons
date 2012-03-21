@@ -1,0 +1,25 @@
+PreReleasesPage:
+    page:
+        SubversionBaseURL: http://svn.testonly.com/open/phpinstaller/tags
+
+SvnInfoCache:
+    software_svn_installer:
+        URL: http://svn.testonly.com/open/phpinstaller/tags
+    software_alpha:
+        URL: http://svn.testonly.com/open/phpinstaller/tags/alpha
+    software_beta:
+        URL: http://svn.testonly.com/open/phpinstaller/tags/beta
+    software_rc:
+        URL: http://svn.testonly.com/open/phpinstaller/tags/rc
+        
+MajorRelease:
+    2point2:
+        ReleaseIdentifier: 2.2
+    2point3:
+        ReleaseIdentifier: 2.3
+    2point4:
+        ReleaseIdentifier: 2.4
+    2point5:
+        ReleaseIdentifier: 2.5
+    2point6:
+        ReleaseIdentifier: 2.6
