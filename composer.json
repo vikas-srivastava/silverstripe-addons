@@ -1,0 +1,19 @@
+{
+	"name": "silverstripe-labs/addons",
+	"description": "Allows logged-in members to submit modules, themes and widgets
+		to a public listing. Git, SVN and archives are supported upload formats.
+		These 'addons' can be searched for by various criteria.
+		For Git and SVN based addons, download archives are automatically created.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe-labs", "addons", "development-tool"],
+	"authors": [
+	{
+		"name": "Ingo Schommer",
+		"email": "ingo@silverstripe.com"
+	}
+	],
+	"require":
+	{
+		"silverstripe/framework": "2.4.*"
+	}
+}
